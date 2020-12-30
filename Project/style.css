@@ -1,0 +1,156 @@
+html {
+
+    background-color: rgb(64, 62, 62);
+    width: 1600px;
+}
+
+.wrapper {
+    
+    width: 100%;
+    height: 80px;
+    background-color: rgb(114, 114, 114);
+    border-radius: 20px;
+}
+
+#NavBar {
+
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#NavBar h2{
+    margin-left: 30px;
+}
+
+#NavBar h1 {
+    font-size: 40px;
+    color: rgb(228, 205, 209);
+}
+
+#NavBar img {
+    height: 80px;
+}
+
+#pokemonbox {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pokemonbox img {
+    display: inline;
+    height: 300px;
+
+}
+
+#pokemonbox #moves {
+    width: 33%;
+}
+
+.moves {
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+
+#pokemonbox h2 {
+
+    font-size: 40px;
+}
+
+#pokemonbox li {
+
+    font-size: 30px;
+}
+
+#pokemonbox .moves li {
+    font-size: 20px;
+}
+
+#options {
+
+    background-color:rgb(56, 54, 54);
+}
+
+#SnomWorld {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mainpic {
+    display:flex;
+}
+
+.KingSnom {
+    width: 1400px;
+}
+
+button {
+    height: 50px;
+    font-size: 30px;
+}
+
+.snompics1 {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.smallpic1 {
+
+    height: 500px;
+    width: 800px;
+}
+
+.snompics2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#SnomWorld2 {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#SnomWorld2 h1{
+    color:rgb(245, 76, 76);
+    font-size: 80px;
+    text-align: center;
+}
+
+#SnomWorld2 button{
+    font-size: 50px;
+    height: 60px;
+}
+
+.snompics3 {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.snompics4 {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+#escape {
+    background-color: rgb(64, 62, 62);
+    color: white;
+}
